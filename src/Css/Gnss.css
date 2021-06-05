@@ -1,0 +1,20 @@
+.gnss-head{
+    font-size: 1.25rem;
+    justify-content: flex-end;
+    padding: .5rem 1rem .5rem;
+    border: 0;
+    font-weight: 600;
+}
+
+.gnss .main-screen {
+    margin-bottom: .2rem;
+}
+
+.in_footer-block{
+    padding: .25rem 0;
+    text-align: left;
+}
+
+.in_footer-block .tag-name {
+    margin-right: 1rem;
+}

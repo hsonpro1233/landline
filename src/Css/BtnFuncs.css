@@ -1,0 +1,27 @@
+.btn-funcs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+}
+
+.btns-left {
+    width: 60%;
+    border: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns-left .btn{
+    width: 100%;
+    height: 4rem;
+    transform: rotate(-45deg);
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.btns-left .btn-link{
+    width: calc((100% / 5 ) - 2rem);
+}

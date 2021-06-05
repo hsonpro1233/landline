@@ -1,0 +1,55 @@
+.PKIInfo {
+    padding:1rem 0;
+    width: 100%;
+}
+
+.row {
+    margin-bottom: .5rem;
+    width: 100%;
+    
+}
+
+.head-table {
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.row.active {
+    border-bottom-width: .3rem;
+    border-right-width: .3rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.row span{
+    width: calc(100% / 6);
+    display:inline-block;
+    padding: 0 .5rem 0 0;
+    letter-spacing: .1rem;
+    
+}
+
+.row-item {
+    width: calc(100% - 2rem);
+    display: flex;
+}
+
+.row-item span{
+    text-align: end;
+}
+
+.numb {
+    padding: 0 .5rem;
+    display: block;
+    width: 2rem;
+    font-size: 1.25rem;
+}
+
+.note{
+    padding: .5rem 0;
+}
+.note div {
+    font-size: 1.25rem;
+    letter-spacing: .1rem;
+    margin: .1rem 0;
+}

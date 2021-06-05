@@ -1,0 +1,18 @@
+.numeric_keypad {
+    width: 100%;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+}
+
+.numeric_keypad .btn,
+.numeric_keypad .btn-link {
+    width: calc(( 100% - 2rem ) / 3); 
+}
+.numeric_keypad .btn-link .btn{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,119 @@
+.screen {
+    border: .5rem solid #ccc;font-weight: 600;
+}
+
+.screen-wrapper {
+    border: .5rem solid #aaa;
+}
+
+/* screen head */
+.screen_head {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    
+}
+
+.screen_head-block {
+    text-align: center;
+    width: calc(100% / 4);
+    border-right: 1px solid #000;
+}
+
+.screen_head-block:last-child {
+    border: 0;
+}
+
+.tag-name {
+    font-size: 1.2rem;
+}
+
+/* screen main */
+.main-screen {
+    padding-right: 4rem;
+    text-align: right;
+    font-size: 3.5rem;
+}
+
+.direction {
+    margin-left: 1rem;
+}
+
+/* screen footer */
+.date-time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .25rem;
+    border: 1px solid #000 ;
+    border-bottom: 0;
+}
+
+.date-time span{
+    margin: 0 .5rem;
+}
+
+.blocks {
+    display: flex;
+    
+}
+.footer-block{
+    border: 1px solid #000;
+}
+
+.block-left {
+    width: 80%;
+    border-right: 1px solid #000;
+}
+.block-right {
+    width: 20%;
+}
+
+.block-checks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+}
+
+.block-char {
+    margin-left: 2rem;
+}
+.block-chars {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.block-char-2 {
+    width: 50%;
+}
+.block-char-2:first-child {
+    border-right: 1px solid #000;
+}
+
+.block-map{
+    border-top: 1px solid #000 ;
+}
+.block {
+    padding: 0 .5rem;
+}
+
+.block-wgs {
+    width: 40%;
+    /* border-right: 1px solid #000 ; */
+}
+
+.block-rms {
+    padding: 0 1rem;
+}
+
+.block-rms .value {
+    width: 100%;
+    text-align: right;
+}
+
+
+/*in screen*/
+
+
+.border {
+    border: 1px solid #000;
+}
